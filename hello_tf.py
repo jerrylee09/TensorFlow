@@ -13,8 +13,3 @@ msg = tf.strings.join(['Hello ', 'TensorFlow'])
 
 with tf.Session() as sess:
     print(sess.run(msg))
-    print(sess.run(msg))
-
-# with tf.compat.v1.Session() as sess:
-#         print(sess.run(msg))
-
