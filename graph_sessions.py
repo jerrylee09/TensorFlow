@@ -16,7 +16,6 @@ graph1 = tf.get_default_graph()
 # Create a second graph and make it the default graph
 graph2 = tf.Graph()
 with graph2.as_default():
-
 # Create two tensors in the second graph and a subtraction operation
     t4 = tf.constant([5.6, 6.7, 7.8, 8.9])
     t5 = tf.random_normal([4])
